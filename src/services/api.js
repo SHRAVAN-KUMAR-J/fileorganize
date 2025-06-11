@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://backend-380x.onrender.com',
 });
 
 export const uploadFiles = async (files, sortBy, sortOrder, minSize, maxSize) => {
